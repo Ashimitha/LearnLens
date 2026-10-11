@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  learnlens:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: learnlens-ai
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - JWT_SECRET=learnlens-production-secret-key-2026
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}

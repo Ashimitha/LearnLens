@@ -1,0 +1,8 @@
+{
+  "name": "LearnLens AI — Personal AI Learning Companion",
+  "description": "Personalized AI learning companion for students: multilingual explanations, image & voice doubt solving, interactive tutor, adaptive quizzes, visual lessons, and mastery tracking.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
